@@ -4,7 +4,7 @@ import dev.moon.storebackend.model.Category;
 import dev.moon.storebackend.model.Product;
 import dev.moon.storebackend.request.AddProductRequest;
 import dev.moon.storebackend.request.ProductUpdateRequest;
-import dev.moon.storebackend.service.exception.ProductNotFoundException;
+import dev.moon.storebackend.exception.ProductNotFoundException;
 import dev.moon.storebackend.service.repository.CategoryRepository;
 import dev.moon.storebackend.service.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.Callable;
 
 @Service
 @RequiredArgsConstructor

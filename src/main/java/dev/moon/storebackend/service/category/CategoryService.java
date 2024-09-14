@@ -1,8 +1,8 @@
 package dev.moon.storebackend.service.category;
 
 import dev.moon.storebackend.model.Category;
-import dev.moon.storebackend.service.exception.AlreadyExistsException;
-import dev.moon.storebackend.service.exception.ResourceNotFoundException;
+import dev.moon.storebackend.exception.AlreadyExistsException;
+import dev.moon.storebackend.exception.ResourceNotFoundException;
 import dev.moon.storebackend.service.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

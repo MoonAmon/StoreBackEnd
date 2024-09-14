@@ -1,4 +1,4 @@
-package dev.moon.storebackend.service.exception;
+package dev.moon.storebackend.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
